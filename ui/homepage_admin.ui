@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1923</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#admin_log{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0., x2:1, y2:0, stop:0 rgba(20, 47,78, 219), stop:1 rgba(85, 98, 112, 226));
+	color:rgba(255,255,255,210);
+	border-radius:50px;
+}
+QPushButton#admin_log:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0., x2:1, y2:0, stop:0 rgba(40, 67,98, 219), stop:1 rgba(105, 118, 132, 226));
+}
+QPushButton#admin_log:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105,118,132,200);
+}
+
+QPushButton#admin_log{
+	background-color: rgba(0,0,0,0);
+	color:rgba(85,98,112,255);
+}
+QPushButton#admin_log:hover_2{
+	color:rgba(155,168,182,220);
+}
+QPushButton#admin_log:pressed_2{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(115,128,142,255);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>1331</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black;
+color:white;
+font: 63 36pt &quot;Segoe UI Variable Text Semibold&quot;;
+border-radius:20px;</string>
+   </property>
+   <property name="text">
+    <string>                                                                                                                                                          College Events</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_37">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>30</y>
+     <width>821</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black;
+color:white;
+font: 63 36pt &quot;Segoe UI Variable Text Semibold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ADMIN AT KARYAKRAM</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>670</y>
+     <width>1371</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black;
+border-radius:20px;</string>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cal_butt">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>670</y>
+     <width>251</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#cal_butt{color:white;
+font: 63 24pt &quot;Segoe UI Variable Text Semibold&quot;;
+border-width: 5;
+border-radius: 10;
+border-style: solid;
+border-color:black;
+background-color:black
+}
+QPushButton#cal_butt:hover{
+background-color: rgb(76, 76, 76);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Calendar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="gallery_butt">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>670</y>
+     <width>301</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#gallery_butt{color:white;
+font: 63 24pt &quot;Segoe UI Variable Text Semibold&quot;;
+border-width: 5;
+border-radius: 10;
+border-style: solid;
+border-color:black;
+background-color:black
+}
+QPushButton#gallery_butt:hover{
+background-color: rgb(76, 76, 76);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Gallery</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scanner_butt">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>670</y>
+     <width>271</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#scanner_butt{color:white;
+font: 63 24pt &quot;Segoe UI Variable Text Semibold&quot;;
+border-width: 5;
+border-radius: 10;
+border-style: solid;
+border-color:black;
+background-color:black
+}
+QPushButton#scanner_butt:hover{
+background-color: rgb(76, 76, 76);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Scanner</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="contact_butt">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>670</y>
+     <width>301</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#contact_butt{font: 63 24pt &quot;Segoe UI Variable Text Semibold&quot;;
+border-width: 5;
+border-radius: 10;
+border-style: solid;
+border-color:black;
+background-color:black;
+color:white;
+}
+QPushButton#contact_butt:hover{
+background-color: rgb(75, 75, 75);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="admin_log">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>60</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#admin_log{background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+}
+QPushButton#admin_log:hover{
+background-color: rgb(80, 80, 80);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>LOG OUT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_137">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-130</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(&quot;C://Users//RIYA//OneDrive//Desktop//PyQt_is_real_shit//logo_karyakram.jpg&quot;);
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg_edited.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>250</y>
+     <width>731</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>145</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderCascadingSectionResizes">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>DATE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>EVENT_NAME</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VENUE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TIME_FROM</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TIME_TO</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>200</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>9</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 16pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Here is list of scheduled event:</string>
+   </property>
+  </widget>
+  <zorder>label_137</zorder>
+  <zorder>label</zorder>
+  <zorder>label_37</zorder>
+  <zorder>label_2</zorder>
+  <zorder>cal_butt</zorder>
+  <zorder>gallery_butt</zorder>
+  <zorder>scanner_butt</zorder>
+  <zorder>contact_butt</zorder>
+  <zorder>admin_log</zorder>
+  <zorder>table</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

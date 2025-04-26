@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Prefix">
+    <file>assets/images/bg_blurred.jpg</file>
+    <file>assets/images/bg_edited.png</file>
+    <file>assets/images/bg_not_blurred.png</file>
+    <file>assets/images/logo_karyakram.jpg</file>
+    <file>assets/images/qrcode.png</file>
+  </qresource>
+</RCC>
