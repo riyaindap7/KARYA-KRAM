@@ -83,4 +83,4 @@ Thus, **KARYA-KRAM** represents a paradigm shift in event management, empowering
 
 ## Contact
 
-For any questions or support, please contact the project maintainer.
+For any questions or support, please contact @riyaindap7.
